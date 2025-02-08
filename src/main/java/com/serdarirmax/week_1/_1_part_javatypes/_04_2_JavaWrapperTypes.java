@@ -1,4 +1,4 @@
-package com.hamitmizrak._1_week;
+package com.serdarirmax.week_1._1_part_javatypes;
 
 public class _04_2_JavaWrapperTypes {
 
