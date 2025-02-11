@@ -149,7 +149,7 @@ JVM’in Görevleri:
 
 ```
 ### **7. Interpreter (Yorumlayıcı) Nedir?**
-**Interpreter (Yorumlayıcı),** programın satır satır çalıştırılmasını sağlayan bir programdır. 
+**Interpreter (Yorumlayıcı),** programın satır satır çalıştırılmasını sağlayan bir programdır.
 Java’da **JVM içerisinde yer alan yorumlayıcı (interpreter)**, bayt kodlarını satır satır çalıştırır.
 
 **Derleyici (Compiler) vs. Yorumlayıcı (Interpreter):**
@@ -314,7 +314,7 @@ public class ComplexClass {
 **Özet:** Daha fazla kod satırı, büyük sınıflar, fazladan kütüphane kullanımı ve karmaşık yapıların kullanımı hem derleme süresini uzatır hem de `.class` dosyalarının boyutunu artırır.
 
 
-## Java Common Rules 
+## Java Common Rules
 ```sh 
 
 ```
@@ -1993,4 +1993,28 @@ public class ScannerLoopExample {
 - **Kaynak sızıntısını önlemek için** `scanner.close();` ile kapatılmalıdır.
 
 🚀 **Scanner, Java'da veri almak için en yaygın kullanılan sınıflardan biridir!**
+
+
+
+## WORA
+```sh 
+
+```
+---
+Java'nın ünlü sloganı **"Write Once, Run Anywhere"** şeklindedir. **"Everywhere" değil, "Anywhere" kullanılır.**
+
+### **Doğru Kullanım:**
+✅ **"Write Once, Run Anywhere" (WORA)**
+
+Bu slogan, Java programlarının **bir kez yazıldığında farklı platformlarda çalışabileceğini** ifade eder. **Anywhere** kelimesi, "herhangi bir yerde" anlamına gelir, yani **farklı işletim sistemleri ve donanımlarda çalışabilir** demektir.
+
+### **Yanlış Kullanım:**
+❌ **"Write Once, Run Everywhere"**
+
+**"Everywhere" kelimesi** "her yerde" anlamına gelir, ancak Java'nın çalışma prensibi tam olarak bu değildir. **JVM'nin yüklü olmadığı bir ortamda Java çalışmaz**, bu yüzden **"everywhere" yerine "anywhere" daha doğru bir ifadedir.**
+
+### **Özetle:**
+💡 **Mülakatta doğru cevap:**  
+✅ **"Write Once, Run Anywhere"** söylemelisiniz.  
+❌ **"Everywhere" derseniz teknik olarak yanlış olur.**
 

@@ -1,4 +1,4 @@
-package com.serdarirmax.week_1._1_part_javatypes;
+package com.serdarirmax.week_01;
 
 public class _07_EscapeCharacter {
 
