@@ -1,4 +1,4 @@
-package com.hamitmizrak._2_week;
+package com.serdarirmax.week_02;
 
 public class _09_4_Conditional_Multiple {
 

@@ -1,4 +1,4 @@
-package com.serdarirmax._2_week;
+package com.serdarirmax.week_02;
 
 public class _09_1_Conditional {
 

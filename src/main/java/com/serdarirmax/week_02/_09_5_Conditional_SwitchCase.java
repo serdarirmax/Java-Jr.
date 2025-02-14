@@ -1,13 +1,13 @@
-package com.hamitmizrak._2_week;
+package com.serdarirmax.week_02;
 
 import java.util.Scanner;
 
 public class _09_5_Conditional_SwitchCase {
 
     public static void main(String[] args) {
-        Scanner scanner= new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Lütfen bir sayı giriniz");
-        int number=scanner.nextInt();
+        int number = scanner.nextInt();
 
         // Multiple if/else if/ else
         if (number == 1) {
@@ -45,6 +45,5 @@ public class _09_5_Conditional_SwitchCase {
                 System.out.println(number + " 1<=NUMBER<=5 dışındadır");
                 break;
         }
-
     }
 }
